@@ -57,6 +57,7 @@ OS2XHeight: 556
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
+Lookup: 258 0 0 "wb" { "wb-1" [150,15,0] } []
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "FontForge 2.0 : Dimock : 25-4-2019"
@@ -29697,6 +29698,7 @@ SplineSet
  53.8623046875 369.830078125 60.623046875 367.736328125 66.6240234375 364 c 8xb8
 EndSplineSet
 Validated: 524289
+Kerns2: 12 60 "wb-1"
 EndChar
 
 StartChar: W
