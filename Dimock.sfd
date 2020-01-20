@@ -20,9 +20,9 @@ StyleMap: 0x0040
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 1
+OS2_UseTypoMetrics: 0
 CreationTime: 1537292998
-ModificationTime: 1579538974
+ModificationTime: 1579539622
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -57,16 +57,9 @@ OS2XHeight: 556
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000000.00000000.00000000.00000000
-Lookup: 258 0 0 "wi" { "wi-1" [150,15,0] "ws" [150,15,0] "wi-2" [150,15,0] "wi-3" [150,15,0] } []
+Lookup: 258 0 0 "w" { "w-1" [150,15,2] "w-2" [150,15,0] "w-3" [150,15,0] } []
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 2 3 "wi-3"
- 1 w
- 1 s
- 0 
- 0 {} 0 {} 0 {} 0 {} 120 {} 0 {}
-KernClass2: 1 1 "wi-2"
- 0 {}
 LangName: 1033 "" "" "" "FontForge 2.0 : Dimock : 25-4-2019"
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -85,6 +78,7 @@ StdVW 4 [52]
 StemSnapH 16 [42 46 52 56 60]
 StemSnapV 28 [38 44 48 52 57 62 66 71 96]
 EndPrivate
+TeXData: 1 0 0 346030 173015 115343 462422 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 257 66
 
 StartChar: .notdef
@@ -29308,7 +29302,7 @@ Encoding: 119 119 64
 Width: 561
 VWidth: 0
 Flags: W
-HStem: 24.7168 21G<120.705 128.849> 37.8291 75.5938<402.172 455.934> 244.844 61.9746<310.015 361.81>
+HStem: 24.7168 21G<120.705 128.849> 37.8291 75.5937<402.172 455.934> 244.844 61.9746<310.015 361.81>
 VStem: 69.0166 52.6768<99.0692 286.405> 374.209 48.4648<101.247 236.548>
 LayerCount: 2
 Back
@@ -29858,8 +29852,8 @@ SplineSet
  35.7939453125 368.422851562 41.2255859375 369.830078125 46.70703125 369.830078125 c 0
  53.3935546875 369.830078125 60.154296875 367.736328125 66.1552734375 364 c 8xb8
 EndSplineSet
-Validated: 1
-Kerns2: 50 60 "wi-1" 30 100 "wi-1"
+Validated: 524289
+Kerns2: 30 200 "w-3" 30 200 "w-3" 50 200 "w-2"
 EndChar
 
 StartChar: W
