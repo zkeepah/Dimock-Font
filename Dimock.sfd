@@ -23,7 +23,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1537292998
-ModificationTime: 1579809170
+ModificationTime: 1579810340
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -5888,6 +5888,7 @@ SplineSet
  22 185 20 206 20 227 c 0
  20 254 24 280 33 313 c 8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: P
@@ -11349,7 +11350,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 62
-Width: 743
+Width: 703
 VWidth: 0
 Flags: W
 HStem: 0.897461 21G<290.275 302.259> 595.848 88.2637<34.0375 144.883> 635.032 59.8838<128.75 270.558> 769 51.5889<576.873 718.088>
@@ -11500,7 +11501,7 @@ SplineSet
  492.625976562 783 513.625976562 790 566.625976562 801 c 0
  597.625976562 808 631.625976562 815 643.625976562 817 c 0xb2
 EndSplineSet
-Validated: 1
+Validated: 524289
 EndChar
 
 StartChar: S
