@@ -5,7 +5,7 @@ FamilyName: Dimock
 Weight: Regular
 Copyright: Copyright (c) 2018, Zach West
 Version: 0.002
-ItalicAngle: 0
+ItalicAngle: -9.5
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 800
@@ -15,6 +15,7 @@ sfntRevision: 0x00000083
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
+HasVMetrics: 1
 XUID: [1021 209 259205530 3122]
 StyleMap: 0x0040
 FSType: 0
@@ -22,13 +23,13 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1537292998
-ModificationTime: 1579755913
+ModificationTime: 1579762355
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
-Panose: 2 0 5 3 0 0 0 0 0 0
+Panose: 3 0 5 0 0 0 0 0 0 0
 OS2TypoAscent: 800
 OS2TypoAOffset: 0
 OS2TypoDescent: -200
@@ -55,19 +56,75 @@ OS2StrikeYPos: 258
 OS2CapHeight: 782
 OS2XHeight: 556
 OS2Vendor: 'PfEd'
-OS2CodePages: 00000001.00000000
-OS2UnicodeRanges: 00000000.00000000.00000000.00000000
-Lookup: 258 0 0 "wb" { "wb-1" [150,15,0] } []
+OS2CodePages: 00000000.00000000
+OS2UnicodeRanges: 00000001.00000000.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033 "" "" "" "FontForge 2.0 : Dimock : 25-4-2019"
-Encoding: ISO8859-1
+MATH:ScriptPercentScaleDown: 80
+MATH:ScriptScriptPercentScaleDown: 60
+MATH:DelimitedSubFormulaMinHeight: 1500
+MATH:DisplayOperatorMinHeight: 0
+MATH:MathLeading: 0 
+MATH:AxisHeight: 0 
+MATH:AccentBaseHeight: 530 
+MATH:FlattenedAccentBaseHeight: 791 
+MATH:SubscriptShiftDown: 140 
+MATH:SubscriptTopMax: 530 
+MATH:SubscriptBaselineDropMin: 0 
+MATH:SuperscriptShiftUp: 479 
+MATH:SuperscriptShiftUpCramped: 0 
+MATH:SuperscriptBottomMin: 530 
+MATH:SuperscriptBaselineDropMax: 0 
+MATH:SubSuperscriptGapMin: 200 
+MATH:SuperscriptBottomMaxWithSubscript: 530 
+MATH:SpaceAfterScript: 41 
+MATH:UpperLimitGapMin: 0 
+MATH:UpperLimitBaselineRiseMin: 0 
+MATH:LowerLimitGapMin: 0 
+MATH:LowerLimitBaselineDropMin: 0 
+MATH:StackTopShiftUp: 0 
+MATH:StackTopDisplayStyleShiftUp: 0 
+MATH:StackBottomShiftDown: 0 
+MATH:StackBottomDisplayStyleShiftDown: 0 
+MATH:StackGapMin: 150 
+MATH:StackDisplayStyleGapMin: 350 
+MATH:StretchStackTopShiftUp: 0 
+MATH:StretchStackBottomShiftDown: 0 
+MATH:StretchStackGapAboveMin: 0 
+MATH:StretchStackGapBelowMin: 0 
+MATH:FractionNumeratorShiftUp: 0 
+MATH:FractionNumeratorDisplayStyleShiftUp: 0 
+MATH:FractionDenominatorShiftDown: 0 
+MATH:FractionDenominatorDisplayStyleShiftDown: 0 
+MATH:FractionNumeratorGapMin: 50 
+MATH:FractionNumeratorDisplayStyleGapMin: 150 
+MATH:FractionRuleThickness: 50 
+MATH:FractionDenominatorGapMin: 50 
+MATH:FractionDenominatorDisplayStyleGapMin: 150 
+MATH:SkewedFractionHorizontalGap: 0 
+MATH:SkewedFractionVerticalGap: 0 
+MATH:OverbarVerticalGap: 150 
+MATH:OverbarRuleThickness: 50 
+MATH:OverbarExtraAscender: 50 
+MATH:UnderbarVerticalGap: 150 
+MATH:UnderbarRuleThickness: 50 
+MATH:UnderbarExtraDescender: 50 
+MATH:RadicalVerticalGap: 50 
+MATH:RadicalDisplayStyleVerticalGap: 182 
+MATH:RadicalRuleThickness: 50 
+MATH:RadicalExtraAscender: 50 
+MATH:RadicalKernBeforeDegree: 277 
+MATH:RadicalKernAfterDegree: -555 
+MATH:RadicalDegreeBottomRaisePercent: 60
+MATH:MinConnectorOverlap: 20
+Encoding: win
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 46 23 9
+WinInfo: 0 23 9
 BeginPrivate: 8
 BlueValues 23 [-1 29 536 544 770 795]
 OtherBlues 11 [-191 -182]
@@ -2690,7 +2747,7 @@ SplineSet
  222.788085938 635 225.788085938 637 230.788085938 641 c 0
  235.788085938 645 238.788085938 649 244.788085938 647 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: j
@@ -29644,8 +29701,7 @@ SplineSet
  35.7939453125 368.422851562 41.2255859375 369.830078125 46.70703125 369.830078125 c 0
  53.3935546875 369.830078125 60.154296875 367.736328125 66.1552734375 364 c 8xb8
 EndSplineSet
-Validated: 524289
-Kerns2: 12 60 "wb-1"
+Validated: 1
 EndChar
 
 StartChar: W
@@ -30855,7 +30911,7 @@ SplineSet
  38.802734375 520.504882812 45.2685546875 522.57421875 51.7939453125 522.57421875 c 0
  59.75390625 522.57421875 67.802734375 519.495117188 74.9462890625 514 c 8xb4
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
